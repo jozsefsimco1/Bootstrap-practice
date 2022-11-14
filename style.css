@@ -1,0 +1,59 @@
+/*Mobile below 768*/
+@media(min-width: 768px) {
+  .news-input {
+    width: 50%;
+    height:10px;
+  }
+
+  .newsletter-text-field {
+
+    margin-top: -20px;
+  }
+  .newsletter-button {
+
+    margin-top: -20px;
+  }
+}
+
+
+/*All screens*/
+
+.newsletter-text-field {
+  min-height:50px; 
+
+}
+.newsletter-button {
+  min-height:50px;
+
+}
+
+body::before {
+  display: block;
+  content: '';
+  height:60px;
+}
+
+#map {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.bi-arrow-up-circle {
+  position: fixed; 
+  bottom:0;
+  margin-right:20px;
+  margin-bottom:20px; 
+  right:0;
+}
+
+.btn.btn-link {
+  color:black;
+}
+
+#question {
+  padding-bottom:80px;
+}
+
+.navbar-expand-lg .navbar-collapse {
+  justify-content: right;
